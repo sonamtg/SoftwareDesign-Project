@@ -1,0 +1,20 @@
+- Button:
+    id: { button_id }
+    style:
+      width: 80%
+      height: 100
+      backgroundColor: skyblue
+      borderWidth: 0.5%
+      borderColor: black
+      borderRadius: 10
+      left: 10%
+      top: { top_shift }
+    on_touch:
+      backgroundColor: orange
+    children:
+      - Text:
+          style:
+            color: black
+            fontSize: 15
+            transform: [{ translateX: 22.5% }]
+          index: { post_index }

@@ -1,0 +1,10 @@
+- Button:
+    id: button_{id}
+    style:
+      width: 50
+      height: 50
+      borderRadius: 25
+      borderWidth: 2
+      backgroundColor: rgb({r}, {g}, {b})
+    on_touch:
+      backgroundColor: rgb({r2}, {g2}, {b2})

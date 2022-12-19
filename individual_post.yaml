@@ -1,0 +1,108 @@
+- ScrollView:
+    style:
+      width: 100%
+      backgroundColor: "#eeeeee"
+    children:
+      - View:
+          style:
+            width: 50%
+            height: 300
+            backgroundColor: skyblue
+            borderWidth: 0.5%
+            borderColor: black
+            left: 2.5%
+            top: 10%
+      - View:
+          style:
+            width: 50%
+            height: 40
+            backgroundColor: white
+            borderWidth: 1
+            borderColor: orange
+            left: 2.5%
+            top: 15%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                index: { description_index }
+      - View:
+          style:
+            width: 50%
+            height: 40
+            backgroundColor: white
+            borderWidth: 1
+            borderColor: orange
+            left: 2.5%
+            top: 15%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                index: { category_index }
+      - View:
+          style:
+            width: 50%
+            height: 40
+            backgroundColor: white
+            borderWidth: 1
+            borderColor: orange
+            left: 2.5%
+            top: 15%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                index: { price_index }
+      - View:
+          style:
+            width: 50%
+            height: 40
+            backgroundColor: white
+            borderWidth: 1
+            borderColor: orange
+            left: 2.5%
+            top: 15%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                index: { isShare_index }
+      - Button:
+          id: button_9
+          style:
+            width: 10%
+            height: 10%
+            borderRadius: 15%
+            backgroundColor: orange
+            transform: [{ translateX: 25% }, { translateY: 175% }]
+          on_touch:
+            backgroundColor: black
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                  transform: [{ translateY: 8 }, { translateX: 15 }]
+                index: 334
+      - Button:
+          id: button_10
+          style:
+            width: 10%
+            height: 10%
+            borderRadius: 15%
+            backgroundColor: orange
+            transform: [{ translateX: 425% }, { translateY: 75% }]
+          on_touch:
+            backgroundColor: black
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                  transform: [{ translateY: 8 }, { translateX: 15 }]
+                index: 224

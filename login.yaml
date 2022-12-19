@@ -1,0 +1,58 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: "#eeeeee"
+    children:
+      - Text:
+          style:
+            color: black
+            fontSize: 30
+            transform: [{ translateX: 25% }, { translateY: 175% }]
+          index: 0
+      - View:
+          style:
+            width: 80%
+            height: 200
+            backgroundColor: skyblue
+            borderWidth: 0.5%
+            borderColor: black
+            left: 10%
+            top: 25%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 20
+                  transform: [{ translateX: 30% }, { translateY: 175% }]
+                index: 11
+            - TextInput:
+                id: button_3
+                index: 22
+                len: 20
+                style:
+                  width: 80%
+                  height: 15%
+                  fontSize: 15
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 0.5
+                  transform: [{ translateX: 12.5% }, { translateY: 160% }]
+            - Text:
+                style:
+                  color: black
+                  fontSize: 20
+                  transform: [{ translateX: 30% }, { translateY: 250% }]
+                index: 43
+            - TextInput:
+                id: button_4
+                index: 54
+                len: 20
+                style:
+                  width: 80%
+                  height: 15%
+                  fontSize: 15
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 0.5
+                  transform: [{ translateX: 12.5% }, { translateY: 230% }]

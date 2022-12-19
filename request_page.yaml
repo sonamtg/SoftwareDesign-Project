@@ -1,0 +1,68 @@
+- ScrollView:
+    style:
+      width: 300
+      backgroundColor: "#eeeeee"
+    children:
+      - Text:
+          style:
+            color: black
+            fontSize: 25
+            fontWeight: bold
+          index: 0
+      - View:
+          style:
+            width: 90%
+            height: 300
+            backgroundColor: skyblue
+            borderWidth: 2
+            borderColor: black
+            left: 5%
+            top: 10%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 15
+                index: 8
+
+      - Button:
+          style:
+            width: 70
+            height: 30
+            backgroundColor: skyblue
+            borderRadius: 5
+            borderColor: orange
+            borderWidth: 2
+            left: 15
+            top: 15%
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 20
+                  fontWeight: bold
+                  transform: [{ translateX: 10 }]
+                index: 45
+          on_touch:
+            backgroundColor: orange
+      - Button:
+          style:
+            width: 70
+            height: 30
+            backgroundColor: skyblue
+            borderRadius: 5
+            borderColor: orange
+            borderWidth: 2
+            left: 15
+            transform: [{ translateX: 200 }, { translateY: 30 }]
+
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 20
+                  fontWeight: bold
+                  transform: [{ translateX: 10 }]
+                index: 50
+          on_touch:
+            backgroundColor: orange

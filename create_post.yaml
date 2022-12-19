@@ -1,0 +1,125 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: white
+    children:
+      - Text:
+          style:
+            color: black
+            fontSize: 30
+            transform: [{ translateX: 25% }, { translateY: 175% }]
+          index: 0
+      - View:
+          style:
+            width: 80%
+            height: 40%
+            backgroundColor: skyblue
+            borderWidth: 0.5%
+            borderColor: black
+            left: 10%
+            top: 25%
+          children:
+            - TextInput:
+                id: button_13
+                index: 89
+                len: 50
+                style:
+                  width: 80%
+                  height: 15%
+                  fontSize: 15
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 0.5
+                  transform: [{ translateX: 12.5% }, { translateY: 160% }]
+                extra_props:
+                  placeholder: "...Description"
+                  placeholderTextColor: grey
+            - TextInput:
+                id: button_14
+                index: 151
+                len: 20
+                style:
+                  width: 80%
+                  height: 15%
+                  fontSize: 15
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 0.5
+                  transform: [{ translateX: 12.5% }, { translateY: 165% }]
+                extra_props:
+                  placeholder: "...Category"
+                  placeholderTextColor: grey
+            - TextInput:
+                id: button_15
+                index: 180
+                len: 20
+                style:
+                  width: 80%
+                  height: 15%
+                  fontSize: 15
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 0.5
+                  transform: [{ translateX: 12.5% }, { translateY: 170% }]
+                extra_props:
+                  placeholder: "...Price"
+                  placeholderTextColor: grey
+            - TextInput:
+                id: button_16
+                index: 213
+                len: 10
+                style:
+                  width: 80%
+                  height: 15%
+                  fontSize: 15
+                  backgroundColor: white
+                  borderColor: gray
+                  borderWidth: 0.5
+                  transform: [{ translateX: 12.5% }, { translateY: 175% }]
+                extra_props:
+                  placeholder: "...ISO/Share"
+                  placeholderTextColor: grey
+      - Button:
+          id: button_8
+          style:
+            width: 10%
+            height: 10%
+            borderRadius: 15%
+            backgroundColor: orange
+            transform: [{ translateX: 100% }, { translateY: 300% }]
+          on_touch:
+            backgroundColor: green
+          children:
+            - View:
+                style:
+                  backgroundColor: white
+                  width: 15%
+                  height: 10%
+                  left: 40%
+                  top: 40%
+            - View:
+                style:
+                  backgroundColor: white
+                  width: 15%
+                  height: 10%
+                  left: 40%
+                  top: 30%
+                  transform: [{ rotate: -90deg }]
+      - Button:
+          id: button_9
+          style:
+            width: 10%
+            height: 10%
+            borderRadius: 15%
+            backgroundColor: orange
+            transform: [{ translateX: 800% }, { translateY: 200% }]
+          on_touch:
+            backgroundColor: black
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 30
+                  transform: [{ translateY: 8 }, { translateX: 30 }]
+                index: 334
